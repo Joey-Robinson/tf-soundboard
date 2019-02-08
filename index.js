@@ -1,3 +1,7 @@
+window.onload = () => {
+  alert("Warning: The content of this soundboard is by nature NSFW and could be offensive to some.");
+}
+
 const removeTransition = (event) => {
   if (event.propertyName !== 'transform') {
     return;
